@@ -1,0 +1,48 @@
+/* Background-color for pages. */
+body {
+    background-color: aqua;
+}
+
+/* Text colors and font-text */
+h1{
+    color: #B75CF4;
+} 
+
+button {
+    font-weight: 700;
+    font-family: sans-serif;
+    background-color:#F45CE5;
+    font-size: medium;
+}
+
+
+.style1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(214, 122, 127);
+    background-color: ;
+}
+
+.style1.lighter {
+    font-weight: lighter;
+    color: blue;
+}
+
+
+/* line height */
+* {
+    line-height: 1.5;
+}
+
+/* Images size */
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+.proportioned {
+    height: auto;
+    width: 200px;
+}
+
