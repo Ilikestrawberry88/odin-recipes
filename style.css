@@ -1,11 +1,19 @@
 /* Background-color for pages. */
 body {
     background-color: aqua;
+    border: 7px solid rgb(20, 77, 199);
+    padding: 10px;
+    margin: 10px;
+    width: 900px;
+    margin: 0 auto;
 }
 
 /* Text colors and font-text */
 h1{
     color: #B75CF4;
+    text-align: center;
+    background-color: gold;
+    border: solid blueviolet 2px;
 } 
 
 button {
@@ -17,16 +25,21 @@ button {
 
 
 .style1 {
+    text-align: center;
     font-family: sans-serif;
     font-weight: bold;
     color: rgb(214, 122, 127);
-    background-color: ;
+    display: flexbox;
+    
 }
 
-.style1.lighter {
+.lighter {
+    font-size: 20px;
     font-weight: lighter;
     color: blue;
+    text-align: center;
 }
+
 
 
 /* line height */
@@ -39,10 +52,15 @@ button {
 img {
     height: auto;
     width: 500px;
+    border: blue solid;
+    margin-left: 190px;
 }
+
 
 .proportioned {
     height: auto;
     width: 200px;
+    border: blue solid;
+    margin-left: 330px;
 }
 
