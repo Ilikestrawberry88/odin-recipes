@@ -1,66 +1,141 @@
 /* Background-color for pages. */
-body {
-    background-color: aqua;
-    border: 7px solid rgb(20, 77, 199);
-    padding: 10px;
-    margin: 10px;
-    width: 900px;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+
+* {
+    color: #404d69;
+    line-height: 1.5;
+    border-collapse: collapse;
+    text-align: center;
 }
+
+a {
+    text-decoration: none;
+    height: fit-content;
+}
+
+body {
+    font-family: 'Kalnia', sans-serif;
+    background-color: #F0FFF0;
+    justify-content: center;
+}
+
+
+.container {
+    width:100%;
+    border-width: 2px;
+    background-color: #F0FFF0;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border-color:#404d69;
+    justify-content: center;
+    border-style: solid;
+}
+
+.container.flag {
+    border-width: 3px 0px 0px 0px;
+}
+
+/* no styles for list homepage */
+.container.dish {
+    list-style-type: none;
+}
+
+.container.dishes {
+    flex-direction: row;
+    height: 400px;
+    gap: 7px;
+    border-width: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+
+.dish {
+    border: 2px solid #404d69;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image {
+    width: 360px;
+    height: 250px;
+}
+
+.image.pages {
+    width: 720px;
+    height: 480px;
+}
+
+a:hover {
+    color: rgb(9, 133, 190);
+    cursor: pointer;
+}
+
+/* list styles */
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Text colors and font-text */
-h1{
-    color: #B75CF4;
+h1{ 
+    font-size: 40px;
+    padding: 20px auto;
+    color: #2A2238;
     text-align: center;
-    background-color: gold;
-    border: solid blueviolet 2px;
+    background-color: #F0FFF0;
 } 
 
-button {
-    font-weight: 700;
-    font-family: sans-serif;
-    background-color:#F45CE5;
-    font-size: medium;
-}
 
-
-.style1 {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: rgb(214, 122, 127);
-    display: flexbox;
-    
-}
-
-.lighter {
+.header {
     font-size: 20px;
-    font-weight: lighter;
-    color: blue;
     text-align: center;
+    font-weight: bold;
+    color: #2A2238;    
 }
 
 
-
-/* line height */
-* {
-    line-height: 1.5;
-}
-
-/* Images size */
-
-img {
-    height: auto;
-    width: 500px;
-    border: blue solid;
-    margin-left: 190px;
-}
-
-
+/* Images  flag size */
 .proportioned {
     height: auto;
     width: 200px;
-    border: blue solid;
-    margin-left: 330px;
+    margin-left: 0px auto;
+    align-self: center;
 }
 
+.container.pages {
+    width: 750px;
+    height: fit-content;
+    border-width: 0px 3px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container.images {
+    justify-content: center;
+} 
+
+.pages {
+    display: flex;
+    justify-content: center;
+}

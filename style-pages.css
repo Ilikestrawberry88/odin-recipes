@@ -1,0 +1,63 @@
+.recipe {
+    text-align: center;
+    font-family: 'Kalnia', sans-serif;
+    line-height: 0.7cm;
+    font-weight: medium;
+}
+
+a {
+    color: #2A2238;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(9, 133, 190);
+    cursor: pointer;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.recipe {
+    background-color: #F0FFF0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 10px;
+    align-items: center;
+    border-color: #2A2238;
+    border-width: 0px 3px;
+    border-style: solid;
+    width: 750px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container.images {
+    display: flex;
+    justify-content: center;
+    border-width: 0px;
+}
+
+/* container for images style */
+.image.pages {
+    width: 720px;
+    height: 470px;
+}
+
+h4 {
+    margin-block-end: 4px
+}
