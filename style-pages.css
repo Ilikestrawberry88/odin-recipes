@@ -58,6 +58,20 @@ ol {
     height: 470px;
 }
 
-h4 {
+h5 {
+    font-size: 15px;
     margin-block-end: 4px
+}
+
+.h5 {
+    margin-bottom: 2px;
+}
+
+/* Ribbe li space */
+.moreSpace {
+    margin-bottom: 7px;
+}
+
+h4 {
+    margin-bottom: 3px;
 }
