@@ -1,7 +1,23 @@
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+a:hover {
+    color: deeppink;
+}
+
 body {
     line-height: 1cm;
 }
 
 .description {
-    font-weight: 500    ;
+    font-weight: 500;
+}
+
+footer {
+    color: chocolate;
+}
+
+.recipes-names {
+    color: cadetblue;
 }
