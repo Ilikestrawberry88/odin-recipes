@@ -31,3 +31,24 @@ h1 {
     font-size: medium;
     color: darkcyan;
 }
+
+/* spin animation for h1 mainpage */
+.spin {
+    width: 100px;
+    height: 100px;
+    background-color: #0CB1C4;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    transform: rotate(.03turn); 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
