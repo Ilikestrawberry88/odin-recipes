@@ -20,13 +20,13 @@ a {
   padding: 15px;
   color: inherit;  
   text-decoration: none;
-  outline: 4px solid rebeccapurple;
-  border: 4px groove rgb(211, 203, 219);
+  border: 4px dotted rgb(146, 91, 201);
 }
 
 a:hover {
   color: cornsilk;
   background-color: #255bf0;
+  border: 4px dashed cornsilk;
 }
 
 h1 {
@@ -57,4 +57,3 @@ body {
   background-color: cornsilk;
   line-height: 2em;
 }
-
