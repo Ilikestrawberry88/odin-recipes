@@ -1,8 +1,32 @@
-/* p stuffs */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* container stuffs */
+.container {
+  padding: 10px 0px 0px 20px;
+}
+
+/* para stuffs */
 p {
   font-family: "El Messiri", Arial, Helvetica, sans-serif;
   font-size: 30px;
   color: rgb(37, 91, 240);
+}
+
+/* links stuffs */
+a {
+  display: inline-block ;
+  border-radius: 0.5em;
+  padding: 15px;
+  color: inherit;  
+  text-decoration: none;
+  outline: 4px solid rebeccapurple;
+  border: 4px groove rgb(211, 203, 219);
+}
+
+a:hover {
+  color: cornsilk;
+  background-color: #255bf0;
 }
 
 h1 {
@@ -11,6 +35,14 @@ h1 {
 
 h3 {
   color: rgb(90, 19, 126);
+}
+
+#head-main {
+  border: 4px solid salmon;
+  border-style: none none solid;
+  display: inline-block;
+  margin: unset;
+  padding: 0px 10px 5px;
 }
 
 /* list stuff */
